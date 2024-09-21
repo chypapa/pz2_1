@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 2vh 38%;
+    font-size:14px;
+}
+h1{
+    margin: 3vh 0;
+    font-size: 32px;
+    
+}
+.sec1_name{
+    display: flex;
+    align-items: flex-end;
+    
+    
+}
+.top-border__first{
+    width: 1vw;
+    background-color: rgb(201, 201, 201);
+    height: 1.7px;
+    margin-left: 2px;
+}
+.top-border__second{
+    width: 60vw;
+    background-color: rgb(201, 201, 201);
+    height: 1.7px;
+}
+.cont_info{
+    line-height: 0px;
+    padding: 0 0.2vw;
+}
+h2{
+    text-wrap: nowrap;
+    font-size:14px;
+    font-weight: 400;
+    
+}
+.forms{
+    padding: 2%;
+    border: 2px solid rgb(201, 201, 201);
+    border-top:none ;
+    margin-left: 2px;
+    margin-bottom: 1px;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+textarea{
+    width: 60%;
+    height: 20vh;
+}
+textarea::placeholder{
+    font-family: 'Courier New';
+    padding: 1%;
+}
+.checks-butt{
+    display: flex;
+    flex-direction: column;
+
+}
